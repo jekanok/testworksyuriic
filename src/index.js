@@ -3,7 +3,6 @@ const jwt = require("jsonwebtoken");
 const bodyParser = require("body-parser");
 const axios = require("axios");
 const cors = require("cors");
-const Base64 = require("js-base64").Base64;
 const app = express();
 app.use(cors());
 
